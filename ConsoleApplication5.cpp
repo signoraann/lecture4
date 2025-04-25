@@ -10,7 +10,7 @@ struct TreeNode {
     TreeNode* left;  
     TreeNode* right;  
     int height;
-}*root;
+}*root; //структура корня
 
 int getHeight(TreeNode* node) {
     if (node != nullptr) {
