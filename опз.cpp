@@ -106,7 +106,7 @@ int main() {
     setlocale(LC_ALL, "RUS");
     string infix;
     map<char, double> variables;
-
+cout<<"Лабораторная работа номер 5 "Обратная польская запись(ОПЗ)"";
     // Ввод выражения
     cout << "Введите математическое выражение: ";
     cin >> infix;
